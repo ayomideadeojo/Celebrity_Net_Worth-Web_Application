@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+body {background-color: dodgerblue;
+ font-family: papyrus;
+ padding: 20px;
+ border: 20px solid green;
+ border-radius: 4px;
+ width: 25%; }
+
+</style>
+</head>
+<h1 style='color:white; background-color:green;text-align:center'><br>Celebrity NetWorth Form</h1>
+<body><center>
+	<form method="post" action="ControllerServlet">
+		 <h2 style='color:white; text-align:center'>FirstName</h2><input type="text" name="firstName" required pattern="^[A-z]+$" title ="Names use the alphabet "/><br>
+         
+          <h2 style='color:white; text-align:center'>LastName</h2><input type="text"  name="lastName" required pattern="^[A-z]+$" title ="Seriously stop trying to break the program"/><br>
+          
+          <h2 style='color:white; text-align:center'>Email</h2><input type="email" name="email" required pattern="^[A-z||0-9_+$%#&+!~`'><?*}{}{|=]+@[A-z0-9]+\.[A-z]+$" title ="Please Enter in a Valid Email Please"/><br>
+          
+          <h2 style='color:white; text-align:center'>Net Worth</h2> <input type="number" name="netWorth" required pattern ="[0-9]" title = "Please enter in whole numbers"/><br>
+       <input type="submit" value="Go!" /></form></center>
+</body>
+<audio controls autoplay>
+  <source src="Kanye West - Gold Digger ft Jamie Foxx.mp3" type="audio/mpeg">
+</audio>
+ <IMG SRC="kanye.gif">
+</html>   
